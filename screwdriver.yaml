@@ -21,3 +21,8 @@ jobs:
     requires: []
     steps:  
       - sd-cmd exec ibu1224/sum@1.0.0 1 1
+   
+   token:
+     requires: []
+     steps:
+       - echo ${SD_TOKEN}
