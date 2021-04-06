@@ -1,0 +1,10 @@
+
+namespace: ibu1224         # コマンドのnamespace
+name: sum                                    # コマンド名
+version: '1.0'                               # コマンドのバージョン
+description: echo arg1 + arg2                # コマンドの説明
+maintainer: hoge@hoge.com                    # コマンドの管理者
+format: binary                               # コマンドのフォーマット（今回はbinary固定）
+ 
+binary:
+  file: ./sum.sh                             # 登録するコマンドのsd-command.yamlから見たPATH
