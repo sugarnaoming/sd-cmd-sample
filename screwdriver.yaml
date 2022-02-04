@@ -15,12 +15,12 @@ jobs:
   promote:
     requires: [publish]
     steps:
-      - sd-cmd promote ibu1224/sum latest stable
+      - sd-cmd promote sugarnaoming/sum latest stable
       
   use-cmd:
     requires: []
     steps:  
-      - sd-cmd exec ibu1224/sum@1.0.0 1 1
+      - sd-cmd exec sugarnaoming/sum@1.0.0 1 1
    
   token:
      requires: []
