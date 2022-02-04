@@ -1,5 +1,5 @@
 
-namespace: ibu1224         # コマンドのnamespace
+namespace: sugarnaoming         # コマンドのnamespace
 name: sum                                    # コマンド名
 version: '1.0'                               # コマンドのバージョン
 description: echo arg1 + arg2                # コマンドの説明
